@@ -52,14 +52,14 @@ setInterval(() => {
     offsetY = Math.abs(dy-oy);
 
     if(offsetX < 73 && offsetY < 52){
-        // document.onclick = function(){
-        //     location.reload();
-        // }
-        // document.onkeydown = function(e){
-        //     if(e.keyCode == 13){
-        //         location.reload();
-        //     }
-        // }
+        document.onclick = function(){
+            location.reload();
+        }
+        document.onkeydown = function(e){
+            if(e.keyCode == 13){
+                location.reload();
+            }
+        }
         gameOver.style.visibility = 'visible';
         obstacle.classList.remove('obstacleAni');
         audiogo.play();
