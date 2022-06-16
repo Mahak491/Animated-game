@@ -1,2 +1,3 @@
-# myntra-clone
- here, i am going to make myntra clone using HTML, CSS and JavaScript
+#Animated Game
+
+i have made an animated game by using pure HTML, CSS and JavaScript
